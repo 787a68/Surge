@@ -1,0 +1,20 @@
+// General
+DOMAIN-KEYWORD,adserv,extended-matching
+
+// Tencent Technology (Shanghai) Co., Ltd
+DOMAIN,oth.str.mdt.qq.com,extended-matching
+DOMAIN-SUFFIX,sngdia.imtmp.net,extended-matching
+DOMAIN,istrategy.beacon.qq.com,extended-matching
+DOMAIN,sdkconfig.video.qq.com,extended-matching
+DOMAIN,mobilelog.upqzfile.com,extended-matching
+DOMAIN,tianshu.gtimg.cn,extended-matching
+DOMAIN,d3g.qq.com,extended-matching
+DOMAIN,ios.rqd.qq.com,extended-matching
+DOMAIN,oth.bls.mdt.qq.com,extended-matching
+
+// Tencent Technology (Shenzhen) Company Limited
+DOMAIN,privacy-policy.truste.com,extended-matching
+
+// Apple Distribution International
+DOMAIN,supportmetrics.apple.com,extended-matching
+DOMAIN,safebrowsing.urlsec.qq.com,extended-matching

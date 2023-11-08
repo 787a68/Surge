@@ -1,0 +1,7 @@
+// Tencent Technology (Shenzhen) Company Limited
+DOMAIN-SUFFIX,wechat.com,extended-matching
+IP-ASN,132203
+
+DOMAIN-SUFFIX,cn,extended-matching
+DOMAIN-KEYWORD,-cn,extended-matching
+GEOIP,CN
