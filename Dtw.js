@@ -15,7 +15,7 @@ if (storedData) {
     var questionId = question.id;
     var num = index + 1;
 
-    var useTime = Math.ceil(Math.random() * 15); // 生成 1 到 15 之间的随机整数
+    var useTime = Math.ceil(Math.random() * 10); // 生成 1 到 10 之间的随机整数
 
     return {
       method: 'POST',
