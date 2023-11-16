@@ -14,6 +14,9 @@ DOMAIN,oth.bls.mdt.qq.com,extended-matching
 
 // Tencent Technology (Shenzhen) Company Limited
 DOMAIN,privacy-policy.truste.com,extended-matching
+DOMAIN,wxsnsdy.wxs.qq.com,extended-matching
+DOMAIN,wxsmsdy.video.qq.com,extended-matching
+DOMAIN,wxsnsdythumb.wxs.qq.com,extended-matching
 
 // Apple Distribution International
 DOMAIN,supportmetrics.apple.com,extended-matching
