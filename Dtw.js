@@ -49,7 +49,8 @@ async function main() {
     try {
       for (const [index, question] of questions.entries()) {
         if (index !== 0) {
-          await delay(1000); // 除第一个请求外，每次请求间隔1秒
+          const delayTime = parseInt($argument) || 1000;
+          await delay(delayTime); // 除第一个请求外，每次请求间隔延迟时间
         }
         await answerQuestion(userId, openId, level, question);
       }
