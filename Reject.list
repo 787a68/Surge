@@ -1,23 +1,31 @@
 // General
-DOMAIN-KEYWORD,adserv,extended-matching
+DOMAIN-KEYWORD,adserv
+DOMAIN-KEYWORD,dns.
+
+// Shanghai Soul Gate Technology Limited Corporation
+IP-CIDR,47.56.131.76/32,no-resolve
+IP-CIDR,47.96.177.75/32,no-resolve
+IP-CIDR,47.110.187.87/32,no-resolve
+IP-CIDR,47.243.147.125/32,no-resolve
+DOMAIN,ssp.soulapp.cn
 
 // Tencent Technology (Shanghai) Co., Ltd
-DOMAIN,oth.str.mdt.qq.com,extended-matching
-DOMAIN-SUFFIX,sngdia.imtmp.net,extended-matching
-DOMAIN,istrategy.beacon.qq.com,extended-matching
-DOMAIN,sdkconfig.video.qq.com,extended-matching
-DOMAIN,mobilelog.upqzfile.com,extended-matching
-DOMAIN,tianshu.gtimg.cn,extended-matching
-DOMAIN,d3g.qq.com,extended-matching
-DOMAIN,ios.rqd.qq.com,extended-matching
-DOMAIN,oth.bls.mdt.qq.com,extended-matching
+DOMAIN,oth.str.mdt.qq.com
+DOMAIN-SUFFIX,sngdia.imtmp.net
+DOMAIN,istrategy.beacon.qq.com
+DOMAIN,sdkconfig.video.qq.com
+DOMAIN,mobilelog.upqzfile.com
+DOMAIN,tianshu.gtimg.cn
+DOMAIN,d3g.qq.com
+DOMAIN,ios.rqd.qq.com
+DOMAIN,oth.bls.mdt.qq.com
 
 // Tencent Technology (Shenzhen) Company Limited
-DOMAIN,privacy-policy.truste.com,extended-matching
-DOMAIN,wxsnsdy.wxs.qq.com,extended-matching
-DOMAIN,wxsmsdy.video.qq.com,extended-matching
-DOMAIN,wxsnsdythumb.wxs.qq.com,extended-matching
+DOMAIN,privacy-policy.truste.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsmsdy.video.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
 
 // Apple Distribution International
-DOMAIN,supportmetrics.apple.com,extended-matching
-DOMAIN,safebrowsing.urlsec.qq.com,extended-matching
+DOMAIN,supportmetrics.apple.com
+DOMAIN,safebrowsing.urlsec.qq.com
