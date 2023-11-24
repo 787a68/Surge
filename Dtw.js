@@ -4,7 +4,7 @@ function delay(ms) {
 
 async function answerQuestion(userId, openId, level, question) {
   const { id: questionId, answer, num } = question;
-  const useTime = Math.floor(Math.random() * 6) + 5; // 生成 5 到 10 之间的随机数
+  const useTime = Math.ceil(Math.random() * 6);
 
   return new Promise(resolve => {
     $httpClient.post(
