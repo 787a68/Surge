@@ -1,31 +1,31 @@
 // General
-DOMAIN-KEYWORD,adserv
-DOMAIN-KEYWORD,dns.
+DOMAIN-KEYWORD,adserv,extended-matching
+DOMAIN-SUFFIX,in-addr.arpa
+
+// Apple Distribution International
+DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN,supportmetrics.apple.com
 
 // Shanghai Soul Gate Technology Limited Corporation
-IP-CIDR,47.56.131.76/32,no-resolve
-IP-CIDR,47.96.177.75/32,no-resolve
-IP-CIDR,47.110.187.87/32,no-resolve
-IP-CIDR,47.243.147.125/32,no-resolve
 DOMAIN,ssp.soulapp.cn
+IP-CIDR,47.56.131.76/32
+IP-CIDR,47.96.177.75/32
+IP-CIDR,47.110.187.87/32
+IP-CIDR,47.243.147.125/32
 
 // Tencent Technology (Shanghai) Co., Ltd
-DOMAIN,oth.str.mdt.qq.com
 DOMAIN-SUFFIX,sngdia.imtmp.net
-DOMAIN,istrategy.beacon.qq.com
-DOMAIN,sdkconfig.video.qq.com
-DOMAIN,mobilelog.upqzfile.com
-DOMAIN,tianshu.gtimg.cn
 DOMAIN,d3g.qq.com
 DOMAIN,ios.rqd.qq.com
+DOMAIN,istrategy.beacon.qq.com
+DOMAIN,mobilelog.upqzfile.com
 DOMAIN,oth.bls.mdt.qq.com
+DOMAIN,oth.str.mdt.qq.com
+DOMAIN,sdkconfig.video.qq.com
+DOMAIN,tianshu.gtimg.cn
 
 // Tencent Technology (Shenzhen) Company Limited
 DOMAIN,privacy-policy.truste.com
-DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsmsdy.video.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
-
-// Apple Distribution International
-DOMAIN,supportmetrics.apple.com
-DOMAIN,safebrowsing.urlsec.qq.com
