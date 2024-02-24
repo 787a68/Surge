@@ -1,10 +1,17 @@
+/*
+# Wechat Mini Program
+//gh_e72f45c43cc1 snans.huiyipro.com
+答题王ID = type=http-request,pattern=^https:\/\/snans\.huiyipro\.com\/api\/question\/getQuestion,requires-body=1,script-path=https://raw.githubusercontent.com/787a68/Surge/Script/DtwID.js
+答题王 = type=http-response,pattern=^https:\/\/snans\.huiyipro\.com\/api\/question\/getQuestion,requires-body=1,script-path=https://raw.githubusercontent.com/787a68/Surge/Script/Dtw.js,timeout=30,argument=500
+*/
+
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function answerQuestion(userId, openId, level, question) {
   const { id: questionId, answer, num } = question;
-  const useTime = Math.ceil(Math.random() * 6);
+  const useTime = Math.ceil(Math.random() * 3);
 
   return new Promise(resolve => {
     $httpClient.post(
