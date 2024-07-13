@@ -1,5 +1,5 @@
 // General
-DOMAIN-KEYWORD,adserv,extended-matching
+DOMAIN-KEYWORD,adserv
 DOMAIN-SUFFIX,in-addr.arpa
 
 // Apple Distribution International
@@ -8,10 +8,10 @@ DOMAIN,supportmetrics.apple.com
 
 // Shanghai Soul Gate Technology Limited Corporation
 DOMAIN,ssp.soulapp.cn
-IP-CIDR,47.56.131.76/32
-IP-CIDR,47.96.177.75/32
-IP-CIDR,47.110.187.87/32
-IP-CIDR,47.243.147.125/32
+IP-CIDR,47.56.131.76/32,no-resolve
+IP-CIDR,47.96.177.75/32,no-resolve
+IP-CIDR,47.110.187.87/32,no-resolve
+IP-CIDR,47.243.147.125/32,no-resolve
 
 // Tencent Technology (Shanghai) Co., Ltd
 DOMAIN-SUFFIX,sngdia.imtmp.net
