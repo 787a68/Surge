@@ -3,6 +3,7 @@ DOMAIN-KEYWORD,adserv
 DOMAIN-SUFFIX,in-addr.arpa
 
 // Apple Distribution International
+DOMAIN,ca.iadsdk.apple.com
 DOMAIN,safebrowsing.urlsec.qq.com
 DOMAIN,supportmetrics.apple.com
 
@@ -25,6 +26,7 @@ DOMAIN,sdkconfig.video.qq.com
 DOMAIN,tianshu.gtimg.cn
 
 // Tencent Technology (Shenzhen) Company Limited
+DOMAIN,dns.weixin.qq.com.cn
 DOMAIN,privacy-policy.truste.com
 DOMAIN,wxsmsdy.video.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
