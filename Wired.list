@@ -13,7 +13,3 @@ DOMAIN-SUFFIX,farlightgames.com,Wired
 // Tencent Technology (Shenzhen) Company Limited
 DOMAIN-SUFFIX,wechat.com
 IP-ASN,132203,no-resolve
-
-// FINAL
-GEOIP,CN
-GEOIP,PRIVATE
