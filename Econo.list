@@ -1,18 +1,61 @@
 // General
+DOMAIN-KEYWORD,adsdk
 DOMAIN-KEYWORD,adserv
-DOMAIN-SUFFIX,in-addr.arpa
+DOMAIN-KEYWORD,analy
+
+// Alipay (Hangzhou) Technology Co., Ltd.
+DOMAIN,loggw.alipay.com.cn
+DOMAIN,gm.mmstat.com
 
 // Apple Distribution International
-DOMAIN,ca.iadsdk.apple.com
 DOMAIN,safebrowsing.urlsec.qq.com
-DOMAIN,supportmetrics.apple.com
+
+// Beijing Microlive Vision Technology Co., Ltd
+AND,((GEOIP,PRIVATE,no-resolve), (PROTOCOL,UDP))
+DOMAIN,dig.bdurl.net
+DOMAIN,is.snssdk.com
+DOMAIN,saveu5-normal-lq.zijieapi.com
+DOMAIN,sf6-be-pack.pglstatp-toutiao.com
+DOMAIN,libra-sg.tiktokv.com
+DOMAIN,logbk-qd.amemv.com
+
+// Giant kunshan co LTD
+DOMAIN-SUFFIX,amap.com
+DOMAIN,s4.cnzz.com
+DOMAIN,ios.bugly.qq.com
+DOMAIN,ulogs.umeng.com
+DOMAIN,ulogs.umengcloud.com
 
 // Shanghai Soul Gate Technology Limited Corporation
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
+DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,volceapplog.com
+DOMAIN,apmplus.volces.com
+DOMAIN,audid-api.taobao.com
+DOMAIN,data-collector.soulapp.cn
+DOMAIN,insight.soulapp.cn
+DOMAIN,mgw.mpaas.cn-hangzhou.aliyuncs.com
+DOMAIN,otheve.beacon.qq.com
+DOMAIN,sdk.open.talk.igexin.com
 DOMAIN,ssp.soulapp.cn
+DOMAIN,vod-license-b.volccdn.com
+DOMAIN,vod-license-m.volccdn.com
+DOMAIN,vod-settings.volcvod.com
+DOMAIN,www.qchannel01.cn
+IP-CIDR,43.231.145.10/32,no-resolve
 IP-CIDR,47.56.131.76/32,no-resolve
 IP-CIDR,47.96.177.75/32,no-resolve
 IP-CIDR,47.110.187.87/32,no-resolve
 IP-CIDR,47.243.147.125/32,no-resolve
+
+// Sybo Games ApS
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,unity3d.com
+DOMAIN,a.applvn.com
+DOMAIN,app-measurement.com
+DOMAIN,configv2.unityads.unitychina.cn
 
 // Tencent Technology (Shanghai) Co., Ltd
 DOMAIN-SUFFIX,sngdia.imtmp.net
@@ -20,8 +63,7 @@ DOMAIN,d3g.qq.com
 DOMAIN,ios.rqd.qq.com
 DOMAIN,istrategy.beacon.qq.com
 DOMAIN,mobilelog.upqzfile.com
-DOMAIN,oth.bls.mdt.qq.com
-DOMAIN,oth.str.mdt.qq.com
+DOMAIN-SUFFIX,mdt.qq.com
 DOMAIN,sdkconfig.video.qq.com
 DOMAIN,tianshu.gtimg.cn
 
@@ -31,3 +73,15 @@ DOMAIN,privacy-policy.truste.com
 DOMAIN,wxsmsdy.video.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
+
+// Xingin Information Technology (Shanghai) Co., Ltd
+DOMAIN,referee.xiaohongshu.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,mob.com
+DOMAIN,fp-it.fengkongcloud.com
+
+// Zhejiang Taobao Network Co.,Ltd
+DOMAIN,adashx.m.taobao.com
+DOMAIN,amdc.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,sjarvis.taobao.com

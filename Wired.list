@@ -3,12 +3,15 @@ DOMAIN-KEYWORD,-cn
 DOMAIN-SUFFIX,cn
 
 // Apple Distribution International
-DOMAIN-SUFFIX,apple.com,Wired
-DOMAIN-SUFFIX,icloud-content.com,Wired
-DOMAIN-SUFFIX,icloud.com,Wired
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,me.com
+DOMAIN,ocsp.digicert.com
+IP-ASN,714,no-resolve
 
 // FARLIGHT PTE. LTD.
-DOMAIN-SUFFIX,farlightgames.com,Wired
+DOMAIN-SUFFIX,farlightgames.com
 
 // Tencent Technology (Shenzhen) Company Limited
 DOMAIN-SUFFIX,wechat.com
